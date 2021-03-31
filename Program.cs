@@ -30,12 +30,12 @@ namespace FindPIRandomNumbers
                 double z = Math.Sqrt((y * y) + (x * x)); 
                 if (z <= 1) //checks if it is in the circle
                 {
-                    inside = inside +1;
-                    total = total + 1;
+                    inside++;
+                    total++;
                 }
                 else
                 {
-                    total = total + 1;
+                    total++;
                 }
             }
             pi = 4*(inside / total);
