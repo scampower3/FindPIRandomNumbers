@@ -8,7 +8,6 @@ namespace FindPIRandomNumbers
 {
     class Program
     {
-        static readonly double r = Math.Sqrt(2);
         static void Main(string[] args)
         {
             double pi; // Stores the value of Pi
